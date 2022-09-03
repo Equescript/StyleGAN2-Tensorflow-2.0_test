@@ -624,8 +624,9 @@ class StyleGAN(object):
 
 
 if __name__ == "__main__":
-    model = StyleGAN(lr = 0.0001, silent = False)
-    model.GAN.steps = 1
+    # model = StyleGAN(lr = 0.0001, silent = False)
+    # model.GAN.steps = 1
+    model.load()
 
-    while model.GAN.steps < 1000001:
-        model.train()
+    # while model.GAN.steps < 1000001:
+    #     model.train()
