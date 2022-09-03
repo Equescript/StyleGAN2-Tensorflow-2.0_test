@@ -624,7 +624,7 @@ class StyleGAN(object):
 
 
 if __name__ == "__main__":
-    # model = StyleGAN(lr = 0.0001, silent = False)
+    model = StyleGAN(lr = 0.0001, silent = False)
     # model.GAN.steps = 1
     model.load()
 
